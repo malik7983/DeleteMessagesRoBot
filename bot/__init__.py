@@ -33,7 +33,7 @@ APP_ID = int(get_config("APP_ID", should_prompt=True))
 # get a token from @BotFather
 TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", should_prompt=True)
 # string session for running as user
-TG_USER_SESSION = get_config("TG_USER_SESSION", should_prompt=False)
+TG_USER_SESSION = get_config("TG_USER_SESSION", should_prompt=True)
 TG_BOT_SESSION = get_config("TG_BOT_SESSION", "bot")
 # Number of update workers to use.
 # 4 is the recommended (and default) amount,
